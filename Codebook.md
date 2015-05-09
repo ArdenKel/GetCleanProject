@@ -48,22 +48,12 @@ General description of the file including:
  
 (you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
  
-###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
  
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
- 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
- 
-### Activity tidyData[,1]
+### Variable 1 - Activity (tidyData[,1])
 factor with values Laying; Sitting; Standing; Walking; WalkingDownstairs; WalkingUpstairs
 Represents the activity performed during measurement
 
-### Subject tidyData[,2]
+### Variable 1 - Subject (tidyData[,2])
 factor with values 1:30
 Represents the identity of the test subject
 
